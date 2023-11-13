@@ -1,3 +1,5 @@
+package com.example.aaaanoteapp;
+
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -85,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                 final int itemToDelete = i;
                 // To delete the data from the App
                 new AlertDialog.Builder(MainActivity.this)
-                        .setIcon(android.R.drawable.ic_dialog_alert)
+                        .setIcon(R.drawable.ic_launcher_foreground)
                         .setTitle("Are you sure?")
                         .setMessage("Do you want to delete this note?")
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
