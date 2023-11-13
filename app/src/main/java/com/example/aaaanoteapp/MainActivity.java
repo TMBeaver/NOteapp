@@ -58,7 +58,8 @@ public class MainActivity extends AppCompatActivity {
 
         if (set == null) {
 
-            notes.add("Example note");
+            notes.add("Example note 1");
+
         } else {
             notes = new ArrayList(set);
         }
